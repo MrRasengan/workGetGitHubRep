@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    transition: background-color 0.3s, color 0.3s ;
+}
+body.light-theme {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+body.dark-theme {
+    background-color:  black;
+    color: aliceblue;
+}
+.repos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.repo-card {
+    border: 3px solid red;
+    padding: 10px;
+    width: 200px;
+}
+.favBtn.favourited {
+    background-color: greenyellow;
+}
+
+.theme-witcher{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.theme-switcher-btn{
+    height: 30px;
+}
+
+.git-hubrep{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.userNameInput{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+.searchUserName{
+    margin-left: 10px;
+    height: 30px;
+}
+
+.fav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.favourites{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
